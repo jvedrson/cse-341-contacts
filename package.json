@@ -1,0 +1,26 @@
+{
+  "name": "cse-341-contacts",
+  "version": "1.0.0",
+  "description": "W01 Project: Contacts",
+  "homepage": "https://github.com/jvedrson/cse-341-contacts#readme",
+  "bugs": {
+    "url": "https://github.com/jvedrson/cse-341-contacts/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvedrson/cse-341-contacts.git"
+  },
+  "license": "ISC",
+  "author": "Ederson Villalba",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongodb": "^7.1.0"
+  }
+}
